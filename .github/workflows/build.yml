@@ -28,5 +28,5 @@ jobs:
           args: >
             -Dsonar.projectKey=harisazam11_1
             -Dsonar.organization=harisazam11
-            -Dsonar.projectBaseDir="Remote Desktop Application"
+            -Dsonar.projectBaseDir=Remote Desktop Application
             -Dsonar.sources=.
