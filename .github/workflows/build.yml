@@ -26,4 +26,4 @@ jobs:
           SONAR_HOST_URL: https://sonarcloud.io
         with:
           args: >
-            -Dsonar.projectBaseDir=Remote Desktop Application
+            -Dsonar.projectBaseDir="Remote Desktop Application"
