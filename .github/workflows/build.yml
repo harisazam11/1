@@ -25,4 +25,8 @@ jobs:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: https://sonarcloud.io
         with:
-          projectBaseDir: "Remote Desktop Application"
+          args: >
+            -Dsonar.projectKey=harisazam11_1
+            -Dsonar.organization=harisazam11
+            -Dsonar.projectBaseDir="Remote Desktop Application"
+            -Dsonar.sources=.
